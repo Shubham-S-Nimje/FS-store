@@ -74,7 +74,7 @@ function showUserOnScreen(obj) {
   var buyone = document.createElement("input");
   buyone.setAttribute("class", "editbtn");
   buyone.type = "button";
-  buyone.value = "buyone";
+  buyone.value = "BuyOne";
   buyone.onclick = async () => {
     obj.quantity = obj.quantity - 1;
     try {
@@ -101,7 +101,7 @@ function showUserOnScreen(obj) {
   var buyTwo = document.createElement("input");
   buyTwo.setAttribute("class", "editbtn");
   buyTwo.type = "button";
-  buyTwo.value = "buyTwo";
+  buyTwo.value = "BuyTwo";
 
   buyTwo.onclick = async () => {
     obj.quantity = obj.quantity - 2;
@@ -129,7 +129,7 @@ function showUserOnScreen(obj) {
   var buyThree = document.createElement("input");
   buyThree.setAttribute("class", "editbtn");
   buyThree.type = "button";
-  buyThree.value = "buyThree";
+  buyThree.value = "BuyThree";
   buyThree.onclick = async () => {
     obj.quantity = obj.quantity - 3;
     try {
