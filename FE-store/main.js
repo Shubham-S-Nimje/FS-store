@@ -72,6 +72,7 @@ function showUserOnScreen(obj) {
 
   //buyone button
   var buyone = document.createElement("input");
+  buyone.setAttribute("class", "editbtn");
   buyone.type = "button";
   buyone.value = "buyone";
   buyone.onclick = async () => {
@@ -98,9 +99,10 @@ function showUserOnScreen(obj) {
 
   //buyTwo button
   var buyTwo = document.createElement("input");
+  buyTwo.setAttribute("class", "editbtn");
   buyTwo.type = "button";
   buyTwo.value = "buyTwo";
-  buyTwo.class = "btn";
+
   buyTwo.onclick = async () => {
     obj.quantity = obj.quantity - 2;
     try {
@@ -125,6 +127,7 @@ function showUserOnScreen(obj) {
 
   //buyThree button
   var buyThree = document.createElement("input");
+  buyThree.setAttribute("class", "editbtn");
   buyThree.type = "button";
   buyThree.value = "buyThree";
   buyThree.onclick = async () => {
